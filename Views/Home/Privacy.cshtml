@@ -2,23 +2,13 @@
     ViewData["Title"] = "Privacy Policy";
 }
 <h1>@ViewData["Title"]</h1>
-
-<div class="card text-center">
-    <div class="card-header">
-        <ul class="nav nav-tabs card-header-tabs">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Aktivní</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Odkaz</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Neaktivní</a>
-            </li>
-        </ul>
-    </div>
-    <div class="card-body">
-        <h4 class="card-title">Nadpis</h4>
-        <p class="card-text">Obsah karty.</p>
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+        Kontakt
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item">Centrála</a>
+        <a class="dropdown-item">Pobočka Praha</a>
+        <a class="dropdown-item">Pobočka Liberec</a>
     </div>
 </div>
